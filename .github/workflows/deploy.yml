@@ -8,7 +8,9 @@ on:
     
 jobs:
   deploy:
+    name: deploy on server
     runs-on: ubuntu-latest
+    
     steps:
       - name: install ssh keys
       - run: |
