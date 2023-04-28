@@ -1,5 +1,5 @@
 name: Deploy_Github_Actions_Sample
-run-name: ${{ github.actor }} is Learning GitHub Actions
+run-name: ${{ github.actor }} is Deploying GitHub_Actions_Sample
 on: 
   push:
     branches:
